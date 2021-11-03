@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body {
+    position: relative;
+}
+
 header {
     height: 70px;
     width: 100%;
@@ -13,12 +17,11 @@ header {
     position: fixed;
     line-height: 70px;
     font-size: 25px;
+    text-align: right;
 }
 
 .header-links {
     display: inline;
-    position: relative;
-    left: 980px;
     margin: 0px 20px;
     text-decoration: none;
 }
@@ -44,8 +47,8 @@ section {
     height: 260px;
     width: 100%;
     color: black;
-    background-color: gray;
-    border-top: solid 3px black;
+    background-color: darkgrey;
+    border-top: solid 3px grey;
 }
 
 footer {
@@ -77,7 +80,7 @@ h2 {
 form {
     height: 115px;
     width: 470px;
-    border: solid 5px black;
+    border: solid 5px grey;
     border-radius: 20px;
     line-height: 25px;
     margin: auto;
